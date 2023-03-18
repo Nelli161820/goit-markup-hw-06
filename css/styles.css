@@ -330,14 +330,40 @@ fill: #e7e9fc;
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: #8E8F99;
+	margin-bottom: 4px;
  }
+
+ .modal-policy {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.33px;
+	letter-spacing: 0.04em;
+	text-decoration-line: underline;
+	text-align: center;
+	color: #4D5AE5;
+	
+ }
+
+
  .modal-form-field {
 	margin-bottom: 4px;
  }
 .modal-form-icon {
 	display: block;
 	position: relative;
+	color: rgba(46, 47, 66, 1);
+	border: 1px solid #2e2f42;
+	border-color: transparent;
+	border-radius: 4px;
 	transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-icon:focus {
+	outline: none;
+	border: 1px solid #4D5AE5;
+	border-radius: 4px;
+	
 }
 .modal-icon {
 	display: block;
@@ -359,6 +385,7 @@ fill: #e7e9fc;
 	height: 100px;
 	padding: 8px 24px 16px 24px;
 	resize: none;
+	border: 1px solid #2E2F42;
 	border-radius: 4px;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -392,18 +419,22 @@ fill: #e7e9fc;
 	overflow: hidden;
 }
 
+
 .icon-chek {
 	display: block;	
 	border: 1px solid #2E2F42;
 	border-radius: 2px;
-	margin-right: 8px;
 	transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-	fill: #f4f4fd;
+	margin-right: 8px;
+	fill: #ffffff;
+	
+	
 		}
 
 .checkbox:checked + .modal-form-chek-desc .modal-chek-icon .icon-chek {
 	background-color: rgba(64, 75, 191, 1);
 	border: 1px solid rgba(64, 75, 191, 1);
+	fill: #f4f4fd;
 	
 }
 
@@ -775,9 +806,9 @@ fill: #e7e9fc;
 		/* FORM FOOTER */
 
 .input-email {
-	padding: 0px 159px 132px 80px;
+	margin: 0px 159px 132px 80px;
 	width: 453px;
-	height: 80px;
+	
 }
 .form-text {
 	font-family: 'Roboto';
