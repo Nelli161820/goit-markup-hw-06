@@ -265,25 +265,27 @@ span {
 	align-items: center;
 	background: #E7E9FC;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	fill: #2E2F42;
+	color: #2E2F42;
 	border-radius: 50%;
-	}
+	transition-property:background border color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	
+		}
 	
 	.modal-btn:focus,
 	.modal-btn:hover {
 		background:rgba(64, 75, 191, 1);
 		border: 1px solid rgba(64, 75, 191, 1);
-		fill: #E7E9FC;
+		color: #E7E9FC;
 		} 
 
 .icon-close-black {
-	fill: #2E2F42;
+	fill:currentColor;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 8px;
 	border-radius: 50%;
-	background: #E7E9FC;
 	transition-property:background fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
